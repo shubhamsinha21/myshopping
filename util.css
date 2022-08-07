@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.mx-2 {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0 10px;
+}
+
+.hover:hover {
+    font-size: 13px;
+    color: rgb(226, 198, 198);
+
+}

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+.container {
+    /* max-width: 80vw; */
+    /* margin: 12px 0px; */
+    padding: 0 4vw;
+}
+
+nav {
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+
+.search {
+    width: 24vw;
+    background: #f1f1f1;
+    padding: 6px 14px;
+    border: 2px solid #faf7f7;
+    border-radius: 5px;
+}
+
+.section-1 {
+    display: flex;
+
+}
+
+.section-2 {
+    display: flex;
+}
+
+.img1 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+.img2 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+.img3 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+.img4 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+.img5 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+.img6 {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin-top: 10px;
+}
+
+
+.section-1 img {
+    padding: 0 20px;
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+}
+
+.section-2 img {
+    padding: 0 20px;
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+}
+
+.section-2 div :hover {
+    border-radius: 80px;
+    cursor: pointer;
+
+}
+
+.section-1 div :hover {
+    border-radius: 80px;
+    cursor: pointer;
+
+}
+
+.shop-img {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(120, 136, 56);
+
+}
+
+.section-3 {
+    display: flex;
+    margin-top: 20px;
+
+    margin: auto;
+    width: 70vw;
+}
+
+.content {
+    background-color: rgb(253, 254, 255);
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    box-shadow: #f3f3f3;
+    margin: 20px 20px;
+    padding: 0 20px;
+    height: 20vh;
+    width: 20vw;
+
+}
+
+.content:hover {
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(244, 244, 243);
+    font-size: large;
+
+}
+
+.section-4 {
+    text-align: center;
+    width: 70vw;
+}
+
+.signup {
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: auto;
+    width: 90vw;
+
+}
+
+.signup-form {
+    width: 90vw;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.form input {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2ppx solid black;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.sign-up {
+    margin-top: 20px;
+    padding: 10px;
+    width: 20vw;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.sign-up:hover {
+    margin-top: 20px;
+    padding: 10px;
+    width: 20vw;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(226, 198, 198);
+    cursor: pointer;
+
+}
+
+.footer {
+    height: 20vh;
+    background-color: rgb(17, 17, 17);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.part-1 {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.follow {
+    text-align: right;
+}
+
+.copyright {
+    margin-top: 40px;
+}
